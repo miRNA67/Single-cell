@@ -29,7 +29,6 @@ Cubre el flujo de trabajo completo para la **anotación funcional de genomas y m
 | §3-B | Anotación de Metagenomas — MMseqs2 |
 | §4 | Parámetros Críticos Explicados |
 | §5 | Análisis de Resultados |
-| §6 | Buenas Prácticas y Mantenimiento |
 
 ---
 
