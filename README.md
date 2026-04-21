@@ -258,17 +258,6 @@ El directorio de salida del análisis (`resultados_hgt_final/`) contiene los sig
 
 ---
 
-## 5. Buenas Prácticas y Mantenimiento
-
-1. **Selección de paso según etapa del análisis:**
-
-   | Etapa | Comando | Entrada | Salida |
-   |---|---|---|---|
-   | Homología | `hgtector search` | `.faa` (proteínas) | `.tsv` (hits Diamond) |
-   | Detección HGT | `hgtector analyze` | `.tsv` (del search) | `hgts/*.txt`, `scores.tsv`, gráficos |
-
----
-
 **Guía 02 de N** · Serie Guías de Bioinformática — Servidor DEG01  
 **Responsable:** Dr. Frank Guzman Escudero  
 **Laboratorio:** Biomolecules Laboratory — Facultad de Ciencias de la Salud, UPC  
