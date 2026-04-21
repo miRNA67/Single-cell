@@ -260,14 +260,7 @@ El directorio de salida del análisis (`resultados_hgt_final/`) contiene los sig
 
 ## 5. Buenas Prácticas y Mantenimiento
 
-1. **Validación funcional cruzada:** Se recomienda cruzar los IDs del archivo `hgts/*.txt` con las anotaciones de eggNOG-mapper (Guía 01) para identificar la relevancia biológica de cada transferencia (p. ej., resistencia a antibióticos, islas genómicas o enzimas CAZy).
-
-2. **Permisos:** Asegura que los resultados sean legibles para el resto del equipo:
-   ```bash
-   chmod -R 755 resultados_hgt_final
-   ```
-
-3. **Selección de paso según etapa del análisis:**
+1. **Selección de paso según etapa del análisis:**
 
    | Etapa | Comando | Entrada | Salida |
    |---|---|---|---|
